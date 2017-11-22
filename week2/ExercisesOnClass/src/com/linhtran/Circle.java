@@ -1,4 +1,5 @@
-public class Circle1 {
+package com.linhtran;
+public class Circle {
 
     private double radius;
     private String color;
@@ -39,4 +40,5 @@ public class Circle1 {
     public double getArea() {
         return radius*radius*Math.PI;
     }
+
 }
