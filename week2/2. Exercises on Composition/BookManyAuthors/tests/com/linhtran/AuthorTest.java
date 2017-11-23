@@ -1,6 +1,5 @@
 package com.linhtran;
 
-import com.linhtran.Author;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
