@@ -8,6 +8,7 @@ public class CircleTest {
     Circle circle1 = new Circle();
     Circle circle2 = new Circle(2.0);
     Circle circle3 = new Circle(3, "gray", false);
+
     @Test
     public void setGetRadius() {
         assertEquals(1.0, circle1.getRadius(), 0.0001);
@@ -38,9 +39,7 @@ public class CircleTest {
 
     @Test
     public void testToString() {
-        String expected = "A circle with radius=3.0, " +
-                "which is a subclass of " +
-                "A shape with color of gray and not filled.";
+        String expected = "A circle with radius=3.0";
         assertEquals(expected, circle3.toString());
     }
 

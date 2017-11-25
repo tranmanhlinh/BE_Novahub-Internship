@@ -31,10 +31,7 @@ public class SquareTest {
 
     @Test
     public void testToString() {
-        String expected = "A square side=13.0, which is a subclass of " +
-                          "A rectangle with width=13.0 and length=13.0, "+
-                          "which is a subclass of A shape with color of black and filled.";
-
+        String expected = "A square side=13.0";
         assertEquals(expected, square3.toString());
     }
 

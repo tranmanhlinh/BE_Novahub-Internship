@@ -1,8 +1,10 @@
-package com.linhtran;
+package linhtran;
 
+import com.linhtran.Rectangle;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class RectangleTest {
     Rectangle rectangle1 = new Rectangle();

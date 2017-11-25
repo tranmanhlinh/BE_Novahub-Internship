@@ -1,8 +1,10 @@
-package com.linhtran;
+package linhtran;
 
+import com.linhtran.Shape;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 
 public class ShapeTest {
     Shape shape1 = new Shape();
